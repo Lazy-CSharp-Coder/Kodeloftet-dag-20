@@ -14,6 +14,10 @@ const disneyCharacters = [
 //
 //
 
+console.log(disneyCharacters);
+console.log(disneyCharacters[4]);
+console.log(disneyCharacters[4].name);
+
 const food = {
   vegetables: [
     { name: "Carrot", color: "orange" },
