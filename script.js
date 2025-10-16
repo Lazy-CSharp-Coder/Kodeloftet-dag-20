@@ -51,5 +51,11 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // index++
 for(let index = 0; index < 10; index++)
 {
-  console.log(index);
+  console.log(`Opptelling : ${index}`);
 }; 
+
+for(let index = 10; index > 0; index--)
+{
+  console.log(`Opptelling : ${index}`);
+}; 
+
