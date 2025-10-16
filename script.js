@@ -49,7 +49,7 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // index = i
 // index++
 
-for(let index = 0; index < numbers.length; ++i)
+for(let index = 0; index < numbers.length; index++)
 {
    
 }
@@ -63,4 +63,9 @@ for(let index = 10; index > 0; index--)
 {
   console.log(`Opptelling : ${index}`);
 }; 
+
+for(let index = 0; index < food.vegetables.length; index++)
+{
+    console.log(food.vegetables[index]);
+}
 
