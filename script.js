@@ -67,5 +67,6 @@ for(let index = 10; index > 0; index--)
 for(let index = 0; index < food.vegetables.length; index++)
 {
     console.log(food.vegetables[index]);
+    if(food.vegetables[index].color === "brown") break;a
 }
 
